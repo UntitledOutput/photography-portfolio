@@ -1,0 +1,160 @@
+.topbar {
+    width: 100%;
+    height: 5rem;
+    display:flex;
+    background-color: gray;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.topbar a {
+    background: none;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    transition: color 0.125s ease-in-out;
+}
+
+.topbar a:hover {
+    color: rgb(65, 65, 65);
+}
+
+.content-grid {
+    background-color: rgba(0, 0, 0, 0);
+    display:flex;
+    flex-wrap: wrap;
+    height:auto;
+
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 10%;
+}
+
+
+.preview-caption-box {
+    
+    bottom: 0;
+    position: absolute;
+    z-index: 5;
+    left: 0; 
+    right: 0; 
+    text-align: center;
+    height: 25%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+    background-color: rgba(133, 133, 133, 0.918);
+    opacity: 0;
+    transition: opacity 0.125s ease-in-out;
+}
+
+img:hover + .preview-caption-box {
+    opacity: 1;
+}
+
+.preview-caption-box a {
+    font-size: xx-large;
+    color: white;
+    font-weight:450;
+}
+
+.preview-img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.preview-img-container {
+    position: relative;
+    width: 45%;
+    height: 300px;
+    object-fit: contain;
+
+
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: block;
+}
+
+.overview-img {
+    width: 100%;
+}
+
+.overview-img img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.overview-container {
+    margin: 1%;
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+
+.overview-title {
+    font-size:250%;
+    font-weight: bold;
+}
+
+.overview-description {
+    top: 100%;
+    text-align: justify;
+}
+
+.body-content {
+    width:50rem;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+}
+
+.footer a {
+    color: gray;
+    font-weight: bold;
+}
+
+.about-section {
+    text-align: justify;
+    width: 40rem;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 2.5%;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 2.5%;
+}
+
+a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
